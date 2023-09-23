@@ -1,0 +1,124 @@
+.image {
+	background-image: url(https://img.freepik.com/premium-photo/monkey-wearing-yellow-shirt-with-blue-circle-around-his-neck_826551-624.jpg?w=360);
+	background-size: 300px 400px;
+	background-color: white;
+	color: #db6e14;
+	width: 296px;
+	height: 400px;
+	padding-top: 10px;
+	display: inline-block;
+	position: absolute;
+	border-radius: 15px 15px 200px 200px;
+}
+
+#left-sign {
+	border-radius: 15px 0px 0px 15px;
+}
+
+#right-sign {
+	border-radius: 15px 15px 15px 0px;
+}
+
+#left-sign,
+#right-sign {
+	display: inline-block;
+	width: 146px;
+	height: 500px;
+	background-color: #db6e14;
+}
+
+.cardclick {
+	position: absolute;
+	width: auto;
+	height: auto;
+	border-radius: 15px 15px 15px 15px;
+}
+
+.firstbox {
+	background-color: white;
+	display: inline-block;
+	border-radius: 15px 15px 15px 15px;
+}
+
+.sign-in {
+	color: white;
+	position: absolute;
+	bottom: 0;
+	left: 63%;
+	margin-left: -50%;
+}
+
+.sign-in span,
+.sign-up span {
+	display: block;
+}
+
+.sign-up {
+	color: white;
+	position: absolute;
+	bottom: 0;
+	right: 5%;
+	margin-left: -50%;
+}
+
+.mainheader {
+	color: white;
+	font-size: 24px;
+	text-align: center;
+	margin-top: 1px;
+}
+
+.form-sign-up {
+	background-color: #db6e14;
+	width: 300px;
+	height: 500px;
+	border-radius: 10px;
+	position: absolute;
+	left: 370px;
+	display: inline-block;
+}
+
+.Username {
+	font-weight: bold;
+	font-size: 14px;
+	width: 230px;
+	margin: 0px 35px 20px;
+	height: 45px;
+	padding: 2px 3px;
+	border-radius: 5px;
+	border: none;
+	background: whitesmoke;
+}
+
+.btn {
+	font-weight: bold;
+	font-size: 14px;
+	width: 230px;
+	margin: 0px 35px 20px;
+	height: 45px;
+	padding: 2px 3px;
+	border-radius: 5px;
+	border: none;
+	background: whitesmoke;
+	color: #db6e14;
+	font-size: 14px;
+}
+
+::placeholder {
+	text-indent: 8px;
+}
+
+.sign-up1 {
+	color: white;
+	text-align: center;
+}
+
+a {
+	text-decoration: none;
+}
+
+.forgotpassword {
+	color: white;
+	font-size: 20px;
+	text-align: center;
+}
